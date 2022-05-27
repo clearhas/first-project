@@ -8,22 +8,23 @@ body {
 }
 
 h2 {
-  font: 2rem/1 'Big Shoulders Display';
+  font: 2.3rem/1 'Big Shoulders Display';
   color: hsl(0, 0%, 95%);
 }
 
 p {
   color: #d3d3d3;
-  margin-bottom: 4rem;
+  padding-right: 1rem;
+  margin-bottom: 5rem;
   font: 400 15px/1.5 'Lexend Deca', sans-serif;
 }
 
 .container {
   display: flex;
-  width: 70%;
+  width: 60%;
+  max-width: 1400px;
   margin: 0 auto;
-  /* position: relative; */
-  margin-top: 5rem;
+  margin-top: 8rem;
 }
 
 .sedans-card {
@@ -92,13 +93,13 @@ button:hover {
 
 
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
   .container {
     display: block;
     width: 90%;
   }  
 }
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .sedans-card {
     border-radius: .3rem .3rem 0 0;
   }
